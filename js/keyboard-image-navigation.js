@@ -1,0 +1,1 @@
+!function(e){e(document).on("keydown.clarotm",function(n){var t=!1;37===n.which?t=e(".nav-previous a").attr("href"):39===n.which&&(t=e(".nav-next a").attr("href")),t&&!e("textarea, input").is(":focus")&&(window.location=t)})}(jQuery);
